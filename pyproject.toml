@@ -1,0 +1,19 @@
+[project]
+name = "Nutritionist-LLM"
+version = "0.1.0"
+description = "LLM behaves as a Nutritionist"
+authors = [
+    {name = "Abinav Ramesh", email = "abinavrameshs@gmail.com"},
+]
+dependencies = ["streamlit>=1.42.0", "google-genai>=1.2.0", "python-dotenv>=1.0.1"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "GNU"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
